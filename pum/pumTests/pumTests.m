@@ -33,7 +33,8 @@
 
 -(void) testSecondTest
 {
-    assert(1 == 2);
+//    assert(2 == 2);
+    assert([@2 isEqualTo:@2]);
 }
 
 @end
