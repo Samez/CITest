@@ -31,7 +31,7 @@
     assert(1 == 1);
 }
 
--(void) secondTest
+-(void) testSecondTest
 {
     assert(1 == 2);
 }
