@@ -26,15 +26,14 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    assert(1 == 2);
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
 -(void) testEquals
 {
-    
+    assert(1 == 1);
+}
+
+-(void) secondTest
+{
+    assert(1 == 2);
 }
 
 @end
